@@ -1,0 +1,362 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.side-nav{
+    width: 252px;
+    height: 100vh;
+background-color: black;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    color: #f9004d ;
+    z-index: 1000;
+    animation: fadeOutLeft;
+    animation-duration: 0.8s;
+}
+.side-nav .top-nav h3{
+    text-shadow: 3px 3px 10px black;
+}
+.center-nav li{
+    background-image: linear-gradient(#0d0d0d,#000);
+}
+.side-nav .top-nav .img-box{
+    width: 110px;
+    height: 110px;
+    background-color: lavender;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-nav .top-nav .img-box .img-icon{
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background-image: url(../Images/about-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.side-nav .nav-icons i{
+    padding: 10px;
+    background-color: #080808;
+    font-size: 18px;
+    border-radius: 50%;
+}
+.side-nav .nav-icons i .phone:hover{
+    color: black;
+    background-color: lavender;
+    cursor: pointer;
+}
+.side-nav .center-nav {
+    margin-left: 15px;
+}
+.side-nav .center-nav .list-group li a{
+    text-decoration: none;
+    color: #f9004d;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.side-nav .center-nav .list-group li i{
+    color: #f9004d ;
+    font-size: 18px;
+}
+.side-nav .center-nav .list-group li:hover a,.side-nav .center-nav .list-group li:hover i{
+    color: lavender;   
+}
+.side-nav .center-nav .list-group .active a,.side-nav .center-nav .list-group .active i{
+color: lavender;     
+}
+.side-nav.active{
+    opacity: 1;
+    animation:fadeInLeft;
+    animation-duration: 0.8s;
+}
+
+
+/*Home Page*/
+.home-section-bg h2{
+    padding: 15px;
+    font-size: xx-large;
+    color: lavender;
+}
+.home-section-bg .head{
+    background-color: black;
+}
+.container-fluid .row .hero-bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left,#000,#0d0d0d) ;
+    position: relative;
+    background-attachment: fixed;
+    background-position-x: right ;
+    background-position-y: top ;
+}
+ .hero-bg,.hero-bg-shadow-box{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0 , 0, 0,0.588);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-bg-shadow-box h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold ;
+    color: #f9004d;
+}
+.hero-bg-shadow-box h6{
+    font-size: 24px;
+    color: silver ;
+}
+.hero-bg-shadow-box h6 span{
+    font-size: 25px;
+    color: #f9004d ;
+}
+.hero-bg button{
+    color: lavender;
+    z-index: 100;
+    font-size: 30px;
+    opacity: 0;
+}
+#header{
+    height: 80px;
+    border-radius: 3px;
+}
+
+
+
+/* About Page*/
+.about-section h3,h1{
+    color: #f9004d;
+}
+.about-section i{
+    color: #f9004d;
+}
+.about-section strong{
+    color: #f9004d;
+}
+.about-section-bg{
+    background-image: linear-gradient(to right,#000,#0d0d00);
+}
+.about-section p{
+    color: silver;
+    font-size: 16px;
+}
+.about-section li{
+    color: silver;
+    font-size: 18px;
+}
+/* Certificate page*/
+.certification-section-bg{
+  background-image: linear-gradient(to left,#000,#0d0d00);
+}
+.certification-section .certification-box1{
+    border-left: 3px solid #f9004d;
+}
+.certification-section .certification-box2{
+    border-left:3px solid gray;
+}
+.certification-section-bg .certification-section h4{
+    color: silver;
+}
+.certification-section-bg .certification-section h6{
+    color: lavender;
+}
+.certification-section-bg .certification-section p{
+    color: silver;
+}
+.certification-section-bg .certification-section li{
+    color: #f9004d;
+}
+
+
+/*project Coding*/
+.project-section-bg{
+  background-image: linear-gradient(to right,#000,#0d0d00);
+}
+.project-section img{
+ height: 250px;
+ border-radius: 2%;
+ margin: 3px;
+ margin: 3px;
+}
+.project-section ul .nav-box{
+background-image: linear-gradient(#0000, #0d0d0d);
+  display: flex;
+ border-radius: 25px;
+}
+
+.project-section ul .nav-box li{
+  color: #f9004d ;
+  font-weight: bold;
+  color: lavender ;
+  font-weight: bold;
+  border:2px solid #f9004d;
+  border-radius: 10%;
+  padding: 8px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+.project-section ul .nav-box li:hover{
+  background-color: lavender;
+  color:#f9004d ;
+}
+.project-section ul .nav-box .nav-item li:active{
+    color: #f9004d;
+    background-color: lavender;
+}
+.project-section .img-box{
+    padding: 40px;
+}
+.project-section .img-box .imgcard a{
+    text-align: center;
+    color: silver;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.project-section .img-box .imgcard h6:hover{
+    color: #f9004d;
+}
+
+/*service section coding*/
+.services-section-bg{
+    background-image: linear-gradient(to left,#000,#0d0d00);
+}
+.services-section-bg .services-section h5{
+    color: lavender;
+}
+.services-section-bg .services-section li{
+    color: silver;
+}
+.services-section-bg .services-section .card1{
+    background-image: linear-gradient(to right,#000,#0d0d00);
+    border-radius: 10px;
+    box-shadow: 3px 3px #c1071e, 0em 0 .4em lavender;
+    padding: 10px;
+    width: 85%;
+    height: 230px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.services-section-bg .services-section .card2{
+    background-image: linear-gradient(to right,#000,#0d0d00);
+    border-radius: 10px;
+    box-shadow: 3px 3px #c1071e, 0em 0 .4em lavender;
+    padding: 10px;
+    width: 85%;
+    height: 230px;
+    margin-left: 15px;
+}
+.services-section-bg .services-section .card3{
+    background-image: linear-gradient(to left,#000,#0d0d00);
+    border-radius: 10px;
+    box-shadow: 3px 3px #c1071e, 0em 0 .4em lavender;
+    padding: 10px;
+    width: 85%;
+    height: 230px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.services-section-bg .services-section .card4{
+    background-image: linear-gradient(to left,#000,#0d0d00);
+    border-radius: 10px;
+    box-shadow: 3px 3px #c1071e, 0em 0 .4em lavender;
+    padding: 10px;
+    width: 85%;
+    height: 230px;
+    margin-left: 15px;
+}
+/*contact section coding*/
+.contact-section-bg{
+    background-image: linear-gradient(to right,#000,#0d0d00);
+}
+.contact-section-bg .contact-section .conicon i{
+    background-color: linear-gradient(#000,#0d0d00);
+    padding: 15px;
+    margin-left: 8px;
+    font-size: 25px;
+    border-radius: 50%;
+    color: lavender;
+
+}
+.contact-section-bg .contact-section .conicon i:hover{
+    background-color: lavender;
+}
+.contact-section-bg .contact-section .conname h5{
+margin-top: 15px;
+
+color: silver;
+}
+.contact-section-bg .contact-section .conname p{
+    margin-left: 17px;
+    color: #f9004d;
+    }
+.contact-section-bg .contact-section .conside{
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 3px 3px #c1071e, 0em 0 .4em lavender;
+    padding: 10px;
+    margin-left: 25px;
+    height: fit-content;
+    margin-bottom: 25px;
+}
+.contact-section-bg .contact-section .conmap{
+    padding: 20px;
+}
+.contact-section-bg .contact-section .conform{
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 40px;
+    box-shadow: 3px 3px #c1071e, 0em 0 .4em lavender;
+    color: #f9004d;
+    width: 60%;
+    height: 800px;
+    font-size: 20px;
+    align-items: end;
+}
+.contact-section-bg .contact-section .conform .btn{
+margin-top: 100px;
+justify-content: center;
+align-items: center;
+ color: lavender;
+ background-color: #c1071e;
+}
+.contact-section-bg .contact-section .conform .btn:hover{
+    background-color: lavender;
+    color: black;
+    font-weight: bold;
+}
+
+/*Underline Coding*/
+.about-section h1::after,.certification-section h1::after,.project-section-bg .project-section h1::after,.services-section-bg .services-section h1::after,.contact-section-bg .contact-section h1::after{
+  content: '';
+  position: relative;
+  display:block ;
+  width: 50px;
+  height: 3px;
+  background: #f9004d;
+  top: 10px;
+  bottom: 0px;
+  left: 0;
+}
+
+/* Start Responsive coding*/
+
+@media(max-width : 991px){
+    .side-nav{
+        opacity: 0;
+    }
+    .hero-bg button{
+        opacity: 1;
+    }
+}
+
