@@ -1,0 +1,22 @@
+pip install pymysql
+pip install pyzipcode
+pip install Flask
+pip install pygal
+pip install SQLAlchemy
+pip install -U scikit-learn
+pip install pandas
+pip install numpy --upgrade
+pip install xlrd
+pip install scikit-learn
+
+    set path=C:\Users\saqui\AppData\Local\Programs\Python\Python37-32
+
+    D:
+
+    cd D:\Project_Softwares\HeartDisease\src
+
+    set FLASK_APP=Main.py
+
+    python -m flask run
+
+http://127.0.0.1:5000/
