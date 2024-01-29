@@ -1,82 +1,93 @@
 * {
     margin: 0;
     padding: 0;
-  }
-  
+  }  
   body {
     display: flex;
+    color: antiquewhite;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f4e4ba;
-  }
-  
+    background-color:lightblue;
+  }  
   .container {
-    background-color: #fff;
+    background-color:black;
     padding: 2rem;
     border-radius: 1rem;
-    min-height: 45vh;
-    width: 40vh;
+    min-height: 55vh;
+    width: 45vh;
+    box-shadow: 3px 3px #af4d98, 0em 0 0.5em lavender;
   }
-  
   form {
     margin: 2rem 0 1rem 0;
-  }
-  
-  form select,
-  button,
-  input {
+  }  
+  form select,button,input {
     width: 100%;
     border: none;
     outline: none;
     border-radius: 0.75rem;
-  }
-  
+  } 
   form input {
-    border: 1px solid lightgray;
+    margin-top: 5px;
+    border: 2px solid #af4d98;
     font-size: 1rem;
-    height: 3rem;
+    height: 2rem;
     padding-left: 0.5rem;
-  }
-  
+  }  
   .dropdown {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
-  }
-  
+  }  
   .dropdown i {
     font-size: 1.5rem;
     margin-top: 1rem;
-  }
-  
+    background-color:#af4d98 ;
+    padding: 5px; 
+    border-radius: 50%;
+  }  
   .select-container img {
     max-width: 2rem;
-  }
-  
+    padding: 5px;
+    border-radius: 20px;
+  }  
   .select-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6rem;
+    width: 7rem;
     border-radius: 0.5rem;
-    border: 1px solid lightgray;
-  }
-  
+    padding: 3px;
+    box-shadow: 2px 2px #af4d98, 0em 0 0.5em lavender;
+  }  
   .select-container select {
     font-size: 1rem;
     width: auto;
-  }
-  
-  .msg {
+  }  
+  .msg { /*done*/
     margin: 2rem 0 2rem 0;
-  }
-  
-  form button {
+    text-align: center;
+    color: #5B42F3;
+  }  
+  form button { /*done*/
     height: 3rem;
-    background-color: #af4d98;
+    background-color: black;
     color: #fff;
     font-size: 1.15rem;
     cursor: pointer;
+    opacity: 0.8;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    box-shadow: 3px 3px #af4d98, 0em 0 0.5em lavender;
   }
+  form button:hover{ /*done*/
+    opacity: 1;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    transform: scale(1.1);
+  }
+
+
+ 
