@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Converter</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="CSS/style.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -14,35 +14,35 @@
     />
   </head>
   <body>
-    <div class="container">
-      <h2>Currency Converter</h2>
+    <div class="container" >
+      <h1 style="text-align: center;">Currency Exchange</h1>
       <form>
         <div class="amount">
-          <p>Enter Amount</p>
+          <h3 style="color:mediumvioletred ;">Enter Amount</h3>
           <input value="1" type="text" />
         </div>
         <div class="dropdown">
           <div class="from">
-            <p>From</p>
+            <h5 style="color: mediumvioletred; padding-bottom: 5px; text-align: center;">FROM</h5>
             <div class="select-container">
-              <img src="https://flagsapi.com/US/flat/64.png" />
+              <img src="https://flagsapi.com/US/flat/64.png">
               <select name="from"></select>
             </div>
           </div>
           <i class="fa-solid fa-arrow-right-arrow-left"></i>
           <div class="to">
-            <p>To</p>
+            <h5 style="color: mediumvioletred; padding-bottom: 5px; text-align: center;" >TO</h5>
             <div class="select-container">
-              <img src="https://flagsapi.com/IN/flat/64.png" />
+              <img src="https://flagsapi.com/IN/flat/64.png">
               <select name="to"></select>
             </div>
           </div>
         </div>
-        <div class="msg">1USD = 80INR</div>
+        <div class="msg">1USD = 83INR</div>
         <button>Get Exchange Rate</button>
       </form>
     </div>
-    <script src="codes.js"></script>
-    <script src="app.js"></script>
+    <script src="JS/code.js"></script>
+    <script src="JS/app.js"></script>
   </body>
 </html>
